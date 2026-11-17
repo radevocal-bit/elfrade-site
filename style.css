@@ -1,0 +1,17 @@
+:root { --cream: #FFF9EF; --ink: #2B3A46; --sub: #5B6B78; --line: #E6D9C6; --yellow: #F2B21B; color-scheme: light; }
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body { margin: 0; background: var(--cream); color: var(--ink); line-height: 1.8;
+  font-family: system-ui, -apple-system, "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Noto Sans JP", "Yu Gothic UI", Meiryo, sans-serif; }
+.wrap { max-width: 760px; margin: 0 auto; padding: 0 16px; }
+.top { text-align: center; padding: 28px 0 0; }
+.cut { display: block; margin: 0 auto; max-width: 100%; height: auto; }
+.line { height: 4px; background: var(--yellow); width: 230px; margin: 0 auto 14px; border-radius: 2px; }
+.logo { font-weight: 900; letter-spacing: .18em; font-size: 40px; line-height: 1.8; margin: 0; }
+.kana { color: var(--sub); font-size: 14px; letter-spacing: .3em; margin: 0; }
+h2 { font-size: 18px; margin: 28px 0 10px; }
+.work { display: flex; gap: 14px; align-items: center; background: #fff; border: 2px solid var(--line); border-radius: 18px; padding: 12px 14px; text-decoration: none; color: var(--ink); margin: 10px 0; }
+.work img { width: 64px; height: 64px; border-radius: 16px; flex: none; }
+.work b { display: block; font-size: 17px; }
+.work span { font-size: 14px; color: var(--sub); }
+footer { text-align: center; color: var(--sub); font-size: 13px; padding: 28px 0 40px; }
